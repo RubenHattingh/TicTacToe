@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/stylingO'sandX's.css">
+    <title>Tic-Tac-Toe</title>
+</head>
+<body id="body" class="mainBody">
+<div class="tableGrid" id="table">
+    <table>
+        <tr>
+            <td class="cell" id="0"></td>
+            <td class="cell" id="1"></td>
+            <td class="cell" id="2"></td>
+        </tr>
+        <tr>
+            <td class="cell" id="3"></td>
+            <td class="cell" id="4"></td>
+            <td class="cell" id="5"></td>
+        </tr>
+        <tr>
+            <td class="cell" id="6"></td>
+            <td class="cell" id="7"></td>
+            <td class="cell" id="8"></td>
+        </tr>
+    </table>
+</div>
+<div class="mainBox" id="contianer">
+    <div class="childBox" id="child">
+        <div class="grandchild1"><label for="playerScore" class="labelPlayer"> PlayerScore:<span id="playerScore">0</span></label> <img class="oImage" id="oPic"
+                src="ticTacToeAssets/Assets/o.png" alt=""></div>
+                <div class="drawnGamesBar" id="drawGameBox">
+                  <label for="draw">DrawnGames:</label><span id="drawScore">0</span>
+                </div>
+        <div class="grandchild2"><label for="CPUscore" class="lableBot">BotScore:<span id="CPUscore">0</span></label><img class="xImage" id="xPic"
+                src="ticTacToeAssets/Assets/x.png"
+                alt="" >
+              </div>
+    </div>
+</div>
+<script src="javaScript/OandX's.js" type="text/javascript"></script>
+</body>
+</html>

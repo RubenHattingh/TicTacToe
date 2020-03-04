@@ -1,0 +1,217 @@
+body {
+  margin: 0 !important;
+  background-color: teal;
+}
+
+.mainBox {
+  flex-direction: column;
+  background: rgba(2, 40, 4, 0.87);
+  display: flex;
+}
+
+.cell {
+  border: solid orange 5px;
+  height:25vh;
+  width: 13vw;
+  text-align: center;
+}
+
+.tableGrid {
+  display: flex;
+  flex-direction: column;
+  background-color: #333333;
+margin-left: 10%;
+margin-right: 10%;
+}
+
+.childBox {
+  display: flex;
+  width: 100vw;
+  height: 18vh;
+  background: white;
+  font-size: xx-large;
+  align-self: flex-end;
+}
+
+.grandchild1 {
+  background: rgba(98, 100, 95, 0.87);
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.grandchild2 {
+  background: rgba(98, 100, 95, 0.87);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.result-image {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  opacity: .7;
+}
+
+.xImage, .oImage {
+  height: 100px;
+  width: 100px;
+}
+
+  .labelPlayer {
+    height: fit-content;
+  }
+
+  .lableBot {
+    height: fit-content;
+  }
+
+  .drawnGamesBar {
+background-color: orange;
+display: flex;
+justify-content: center;
+}
+
+.buttonReplay {
+align-self: center;
+width: 100px;
+height: 50px;
+}
+/* media queries*/
+@media screen and (max-width: 800px) {
+.cell {
+  border: solid orange 5px;
+  height:270px;
+  width: 200px;
+}
+}
+
+@media screen and (max-width: 800px) {
+  .tableGrid {
+    display: flex;
+    flex-direction: column;
+    background-color: #333333;
+  margin-left: 10%;
+  margin-right: 10%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .childBox {
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+    background: white;
+    font-size: x-large;
+    align-self: flex-end;
+  }
+}
+
+@media screen and (max-width: 550px){
+.buttonReplay {
+  height: 5px;
+  width: 50px;
+  font-size: xx-small;
+}
+}
+
+@media screen and (max-width: 550px) {
+  .cell {
+    border: solid orange 3px;
+    height:200px;
+    width: 140px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .tableGrid {
+    display: flex;
+    flex-direction: column;
+    background-color: #333333;
+    left: 50%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .childBox {
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    background: white;
+    font-size: medium;
+    align-self: flex-end;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .xImage, .oImage {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .result-image {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: -100px;
+    margin-left: -100px;
+    opacity: .7;
+  }
+}
+@media screen and (max-width: 400px) {
+  .cell {
+    border: solid orange 2px;
+    height:180px;
+    width: 140px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .cell {
+    border: solid orange 2px;
+    height:160px;
+    width: 140px;
+  }
+}
+
+@media screen and (max-width: 420px) and (max-height: 750px) {
+  .cell {
+    border: solid orange 2px;
+    height:210px;
+    width: 140px;
+  }
+}
+
+ @media screen and (min-width: 370px) and (max-height: 850px) {
+   .buttonReplay {
+     height: 30px;
+     width: 100px;
+     font-size: xx-small;
+   }
+ }
+
+ @media screen and (min-width: 370px) and (max-height: 680px) {
+   .cell {
+     border: solid orange 2px;
+     height:190px;
+     width: 140px;
+   }
+ }
+ @media screen and (min-width: 300px) and (max-width: 370px) {
+   .cell {
+     border: solid orange 2px;
+     height:160px;
+     width: 140px;
+   }
+ }
